@@ -1,0 +1,11 @@
+D:\calc6\calc6\bin\Debug\calc6.exe.config
+D:\calc6\calc6\bin\Debug\calc6.exe
+D:\calc6\calc6\bin\Debug\calc6.pdb
+D:\calc6\calc6\obj\Debug\calc6.csproj.AssemblyReference.cache
+D:\calc6\calc6\obj\Debug\calc6.csproj.SuggestedBindingRedirects.cache
+D:\calc6\calc6\obj\Debug\calc6.Properties.Resources.resources
+D:\calc6\calc6\obj\Debug\calc6.csproj.GenerateResource.cache
+D:\calc6\calc6\obj\Debug\calc6.csproj.CoreCompileInputs.cache
+D:\calc6\calc6\obj\Debug\calc6.exe
+D:\calc6\calc6\obj\Debug\calc6.pdb
+D:\calc6\calc6\obj\Debug\Calculator.Form1.resources
