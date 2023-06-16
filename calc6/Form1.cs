@@ -27,7 +27,7 @@ namespace Calculator
             if (flag)
             {
                 flag = false;
-                textBox1.Text = "0";
+                // textBox1.Text = "0";
             }
 
             Button button = (Button)sender;
@@ -42,6 +42,7 @@ namespace Calculator
             Button button = (Button)sender;
             Action = button.Text;
             Number1 = textBox1.Text;
+            textBox1.Text += button.Text;
             flag = true;
         }
 
@@ -49,13 +50,13 @@ namespace Calculator
         {
             textBox1.Text = "0";
         }
-
+        
 
         private void ResultClick(object sender, EventArgs e)
         {
             double doubleN1, doubleN2, result = 0;
             doubleN1 = Convert.ToDouble(Number1);
-            doubleN2 = Convert.ToDouble(textBox1.Text);
+            doubleN2 = Convert.ToDouble(textBox1.Text.Substring(Number1.Length+1));
             result = 0;
 
             if (Action == "+")
